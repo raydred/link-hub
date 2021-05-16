@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import LinkHub from './Link-hub';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/index.css';
+import './assets/link-hub.css';
+import LinkHub from './components/Link-hub';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
