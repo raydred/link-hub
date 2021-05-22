@@ -1,17 +1,20 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUserCircle } from '@fortawesome/free-solid-svg-icons'
 
+const handleError = (ev) =>{
+    ev.target.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Placeholder_no_text.svg/1024px-Placeholder_no_text.svg.png';
+}
 
-
-
-function ProfilePicture(source, className){ 
+function ProfilePicture(source){ 
 
     return(
         
-        <div className={className}>
-            { source.source && <img src={source}/>}
-            { !source.source && <FontAwesomeIcon icon={faUserCircle} size="6x"/>}
+        <div className="text-center">
+            <img 
+                onError={handleError} 
+                src={source} 
+                width='180'
+                className="profile"    
+            />            
         </div>
     )
 }

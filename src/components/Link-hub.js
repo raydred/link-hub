@@ -3,6 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ProfilePicture from './ProfilePicture'
+import ProfileTitle from './ProfileTitle'
+import ProfileSocialMedia from './ProfileSocialMedia'
 
 
 function LinkHub() {
@@ -12,7 +14,9 @@ function LinkHub() {
         <Col></Col>
         <Col>
           
-          <ProfilePicture />
+          <ProfilePicture source=""/>
+          <ProfileTitle text="That Comic Thing™" />
+          <ProfileSocialMedia twitter="@raydred" instagram="@raydred"  />
 
         </Col>
         <Col></Col>
