@@ -14,9 +14,19 @@ function LinkHub() {
         <Col></Col>
         <Col>
           
-          <ProfilePicture source=""/>
-          <ProfileTitle text="That Comic Thing™" />
-          <ProfileSocialMedia twitter="@raydred" instagram="@raydred"  />
+          <ProfilePicture 
+            source=""
+          />
+          <ProfileTitle 
+            title="That Comic Thing"
+            subtitle="The internet's best comic, since 1927." 
+          />
+          <hr />
+          <ProfileSocialMedia 
+            twitter="@raydred" 
+            instagram="@raydred"  
+          />
+          <hr />
 
         </Col>
         <Col></Col>

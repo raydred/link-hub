@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: burlywood;
+  background-color: burlywood !important;
 }
 
 code {
@@ -22,6 +22,11 @@ img.profile {
 }
 
 .profile-title{
-  font-size: 25px;
-  font-family: 'Fjalla';
+  font-size: 2em;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.profile-subtitle{
+  font-size: 0.84em;
+  font-family: 'Roboto', sans-serif;
 }
