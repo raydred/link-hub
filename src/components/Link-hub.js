@@ -1,17 +1,17 @@
-import logo from '../assets/logo.svg';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ProfilePicture from './ProfilePicture'
 import ProfileTitle from './ProfileTitle'
 import ProfileSocialMedia from './ProfileSocialMedia'
+import ProfileLinkList from './ProfileLinkList'
 
 
 function LinkHub() {
   return (
-    <Container>
+    <Container className="app-width">
       <Row>
-        <Col></Col>
         <Col>
           
           <ProfilePicture 
@@ -22,14 +22,14 @@ function LinkHub() {
             subtitle="The internet's best comic, since 1927." 
           />
           <hr />
+          <ProfileLinkList />
+          <hr />          
           <ProfileSocialMedia 
-            twitter="@raydred" 
-            instagram="@raydred"  
+            twitter="raydred" 
+            instagram="raydred"  
           />
-          <hr />
 
         </Col>
-        <Col></Col>
       </Row>
     </Container>
   );

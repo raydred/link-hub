@@ -1,3 +1,11 @@
+body{
+  background-color: burlywood !important;
+}
+
+.app-width{
+  max-width: 350px !important;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +43,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+img.profile {
+  border-radius: 200px;
+  border: 6px solid #ececec;
+  background-color: #fff;
+  margin: 2em;
+  box-shadow: 0px 15px 13px rgba(0,0,0,0.6);
+}
+
+.profile-title{
+  font-size: 2em;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.profile-subtitle{
+  font-size: 0.84em;
+  font-family: 'Roboto', sans-serif;
+}
+
+a.socialmedialink
+{
+  display: flexbox;
+  flex-direction: row;
+  padding:8px;
 }

@@ -1,0 +1,15 @@
+
+{
+
+    "links" : [
+        { 
+            "text":"Comics I Create",
+            "url":"https://ThatComicThing.com/latest"        
+        },
+        { 
+            "text":"Art gallery",
+            "url":"https://raydredstudios.com/gallery"        
+        }
+    ]
+
+}
